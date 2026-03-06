@@ -16,7 +16,7 @@ export default function App() {
   }, [language]);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/acls-timer">
       <Routes>
         <Route path="/" element={<HomeScreen />} />
         <Route path="/setup" element={<QuickSetup />} />
