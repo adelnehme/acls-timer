@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:acls-algorithms.com)",
+      "WebFetch(domain:nhcps.com)",
+      "WebFetch(domain:acls.com)",
+      "WebFetch(domain:stately.ai)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vite:*)"
+    ]
+  }
+}

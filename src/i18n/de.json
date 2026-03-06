@@ -1,0 +1,186 @@
+{
+  "app": {
+    "title": "ACLS Timer",
+    "subtitle": "Reanimationsmanagement bei Herzstillstand"
+  },
+  "home": {
+    "start": "REANIMATION STARTEN",
+    "history": "Verlauf",
+    "settings": "Einstellungen",
+    "noHistory": "Keine früheren Ereignisse"
+  },
+  "setup": {
+    "title": "Schnelleinrichtung",
+    "patientId": "Patienten-ID (optional)",
+    "patientIdPlaceholder": "Patienten-ID oder Name eingeben...",
+    "skipSetup": "Überspringen — Jetzt starten",
+    "begin": "STARTEN"
+  },
+  "dashboard": {
+    "cycle": "Zyklus",
+    "shocks": "Schocks",
+    "elapsed": "Verstrichene Zeit",
+    "cprInProgress": "CPR läuft",
+    "rhythmCheck": "Rhythmuskontrolle",
+    "checkRhythm": "RHYTHMUS PRÜFEN",
+    "shockDelivered": "SCHOCK",
+    "rosc": "ROSC",
+    "endResuscitation": "BEENDEN",
+    "addMedication": "+ Medikament",
+    "addNote": "+ Notiz",
+    "pause": "Pause",
+    "resume": "Fortsetzen"
+  },
+  "rhythm": {
+    "title": "RHYTHMUS JETZT PRÜFEN",
+    "vf_pvt": "VF / pVT",
+    "shockable": "Schockbar",
+    "asystole_pea": "Asystolie / PEA",
+    "nonShockable": "Nicht schockbar",
+    "organized": "Organisierter Rhythmus",
+    "checkPulse": "Puls prüfen →",
+    "pulsePresent": "Puls vorhanden (ROSC)",
+    "noPulse": "Kein Puls (PEA)",
+    "considerHsTs": "Reversible Ursachen erwägen (Hs & Ts)"
+  },
+  "medications": {
+    "title": "Medikamente",
+    "epinephrine": "Adrenalin",
+    "amiodarone": "Amiodaron",
+    "lidocaine": "Lidocain",
+    "sodium_bicarbonate": "Natriumbicarbonat",
+    "calcium_chloride": "Calciumchlorid",
+    "calcium_gluconate": "Calciumgluconat",
+    "magnesium_sulfate": "Magnesiumsulfat",
+    "lipid_emulsion": "Lipidemulsion 20%",
+    "naloxone": "Naloxon",
+    "custom": "Anderes Medikament",
+    "give": "Geben",
+    "given": "Gegeben",
+    "due": "Fällig",
+    "dueIn": "Fällig in",
+    "overdue": "ÜBERFÄLLIG",
+    "dose": "Dosis",
+    "route": "Verabreichungsweg",
+    "doseNumber": "Dosis #{{number}}",
+    "epiTimer": "Adrenalin-Timer",
+    "nextEpi": "Nächstes Adrenalin",
+    "amioAvailable": "Amiodaron {{dose}} verfügbar"
+  },
+  "interventions": {
+    "title": "Interventionen",
+    "iv": "IV-Zugang",
+    "io": "IO-Zugang",
+    "ett": "Endotrachealtubus",
+    "supraglottic": "Supraglottischer Atemweg",
+    "etco2": "ETCO2",
+    "established": "Angelegt"
+  },
+  "reversibleCauses": {
+    "title": "Reversible Ursachen",
+    "hs": "5 Hs",
+    "ts": "5 Ts",
+    "considered": "Erwogen",
+    "ruledOut": "Ausgeschlossen",
+    "hypovolemia": "Hypovolämie",
+    "hypoxia": "Hypoxie",
+    "hydrogen_ion": "Azidose (H⁺)",
+    "hypo_hyperkalemia": "Hypo-/Hyperkaliämie",
+    "hypothermia": "Hypothermie",
+    "tension_pneumothorax": "Spannungspneumothorax",
+    "tamponade": "Herzbeuteltamponade",
+    "toxins": "Toxine / Intoxikation",
+    "thrombosis_pulmonary": "Lungenembolie",
+    "thrombosis_coronary": "Myokardinfarkt"
+  },
+  "eventLog": {
+    "title": "Ereignisprotokoll",
+    "empty": "Noch keine Ereignisse aufgezeichnet"
+  },
+  "abg": {
+    "title": "Blutgasanalyse",
+    "takePhoto": "Foto aufnehmen",
+    "upload": "Bild hochladen",
+    "manualEntry": "Werte manuell eingeben",
+    "hideManual": "Manuelle Eingabe ausblenden",
+    "processing": "Bild wird analysiert...",
+    "alerts": "Warnungen",
+    "interpretation": "Interpretation",
+    "interpret": "Interpretieren",
+    "save": "BGA speichern",
+    "history": "BGA-Verlauf",
+    "reminder": "BGA fällig — letzte Aufnahme >10 Min. her"
+  },
+  "hemo": {
+    "title": "Hämodynamik",
+    "vitals": "Vitalparameter",
+    "vasopressors": "Vasopressoren",
+    "notes": "Notizen",
+    "notesPlaceholder": "Optionale Notizen...",
+    "record": "Hämodynamik erfassen",
+    "history": "Hämodynamik-Verlauf"
+  },
+  "vent": {
+    "title": "Beatmung",
+    "mode": "Beatmungsmodus",
+    "evaluate": "Regeln auswerten",
+    "aiRecommend": "KI-Empfehlungen",
+    "loading": "Analyse...",
+    "recommendations": "Empfehlungen",
+    "notes": "Notizen",
+    "notesPlaceholder": "Optionale Notizen...",
+    "record": "Beatmung erfassen",
+    "history": "Beatmungsverlauf"
+  },
+  "summary": {
+    "title": "Reanimationszusammenfassung",
+    "roscAchieved": "ROSC erreicht",
+    "terminated": "Reanimation beendet",
+    "duration": "Gesamtdauer",
+    "totalShocks": "Schocks gesamt",
+    "totalCycles": "Zyklen gesamt",
+    "medicationsGiven": "Verabreichte Medikamente",
+    "timeline": "Zeitachse",
+    "exportPdf": "PDF exportieren",
+    "print": "Drucken",
+    "newSession": "Neue Sitzung",
+    "postRoscCare": "Post-ROSC Versorgung",
+    "reArrest": "Re-Arrest (Zurück zu CPR)"
+  },
+  "postRosc": {
+    "title": "Post-ROSC Checkliste",
+    "ecg12lead": "12-Kanal-EKG",
+    "targetTemperature": "Zieltemperaturmanagement",
+    "hemodynamics": "Blutdruck / Hämodynamik",
+    "labs": "Labor / Blutgasanalyse",
+    "imaging": "Bildgebung (Rö-Thorax, CT)",
+    "transport": "Transport / Aufnahmeplanung"
+  },
+  "confirm": {
+    "endTitle": "Reanimation beenden?",
+    "endMessage": "Sind Sie sicher, dass Sie diese Reanimation beenden möchten?",
+    "roscTitle": "ROSC bestätigen",
+    "roscMessage": "Rückkehr des Spontankreislaufs bestätigen?",
+    "yes": "Ja",
+    "no": "Nein",
+    "cancel": "Abbrechen"
+  },
+  "special": {
+    "pregnancy": "Schwangerschaft",
+    "pregnancyNote": "Linksseitenlagerung des Uterus. Perimortem-Sectio nach 4-5 Min. erwägen.",
+    "hypothermia": "Hypothermie",
+    "hypothermiaNote": "Medikamente <30°C zurückhalten. Dosisintervalle 30-34°C verlängern. CPR fortsetzen.",
+    "drowning": "Ertrinken",
+    "drowningNote": "A-B-C-Ansatz (Atemweg zuerst). 5 Beatmungen vor Herzdruckmassage.",
+    "opioid_overdose": "Opioid-Überdosis",
+    "opioidNote": "Naloxon 0,4-2mg IV/IO/IM geben. Alle 2-3 Min. wiederholen."
+  },
+  "common": {
+    "back": "Zurück",
+    "close": "Schließen",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "loading": "Laden..."
+  }
+}

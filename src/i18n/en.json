@@ -1,0 +1,186 @@
+{
+  "app": {
+    "title": "ACLS Timer",
+    "subtitle": "Cardiac Arrest Resuscitation Management"
+  },
+  "home": {
+    "start": "START RESUSCITATION",
+    "history": "Event History",
+    "settings": "Settings",
+    "noHistory": "No previous events"
+  },
+  "setup": {
+    "title": "Quick Setup",
+    "patientId": "Patient ID (optional)",
+    "patientIdPlaceholder": "Enter patient ID or name...",
+    "skipSetup": "Skip — Start Now",
+    "begin": "BEGIN"
+  },
+  "dashboard": {
+    "cycle": "Cycle",
+    "shocks": "Shocks",
+    "elapsed": "Elapsed",
+    "cprInProgress": "CPR in Progress",
+    "rhythmCheck": "Rhythm Check",
+    "checkRhythm": "CHECK RHYTHM",
+    "shockDelivered": "SHOCK",
+    "rosc": "ROSC",
+    "endResuscitation": "END",
+    "addMedication": "+ Medication",
+    "addNote": "+ Note",
+    "pause": "Pause",
+    "resume": "Resume"
+  },
+  "rhythm": {
+    "title": "CHECK RHYTHM NOW",
+    "vf_pvt": "VF / pVT",
+    "shockable": "Shockable",
+    "asystole_pea": "Asystole / PEA",
+    "nonShockable": "Non-shockable",
+    "organized": "Organized Rhythm",
+    "checkPulse": "Check Pulse →",
+    "pulsePresent": "Pulse Present (ROSC)",
+    "noPulse": "No Pulse (PEA)",
+    "considerHsTs": "Consider reversible causes (Hs & Ts)"
+  },
+  "medications": {
+    "title": "Medications",
+    "epinephrine": "Epinephrine",
+    "amiodarone": "Amiodarone",
+    "lidocaine": "Lidocaine",
+    "sodium_bicarbonate": "Sodium Bicarbonate",
+    "calcium_chloride": "Calcium Chloride",
+    "calcium_gluconate": "Calcium Gluconate",
+    "magnesium_sulfate": "Magnesium Sulfate",
+    "lipid_emulsion": "Lipid Emulsion 20%",
+    "naloxone": "Naloxone",
+    "custom": "Other Medication",
+    "give": "Give",
+    "given": "Given",
+    "due": "Due",
+    "dueIn": "Due in",
+    "overdue": "OVERDUE",
+    "dose": "Dose",
+    "route": "Route",
+    "doseNumber": "Dose #{{number}}",
+    "epiTimer": "Epi Timer",
+    "nextEpi": "Next Epinephrine",
+    "amioAvailable": "Amiodarone {{dose}} available"
+  },
+  "interventions": {
+    "title": "Interventions",
+    "iv": "IV Access",
+    "io": "IO Access",
+    "ett": "ET Tube",
+    "supraglottic": "Supraglottic Airway",
+    "etco2": "ETCO2",
+    "established": "Established"
+  },
+  "reversibleCauses": {
+    "title": "Reversible Causes",
+    "hs": "5 Hs",
+    "ts": "5 Ts",
+    "considered": "Considered",
+    "ruledOut": "Ruled Out",
+    "hypovolemia": "Hypovolemia",
+    "hypoxia": "Hypoxia",
+    "hydrogen_ion": "Acidosis (H⁺)",
+    "hypo_hyperkalemia": "Hypo/Hyperkalemia",
+    "hypothermia": "Hypothermia",
+    "tension_pneumothorax": "Tension Pneumothorax",
+    "tamponade": "Cardiac Tamponade",
+    "toxins": "Toxins",
+    "thrombosis_pulmonary": "Pulmonary Thrombosis",
+    "thrombosis_coronary": "Coronary Thrombosis"
+  },
+  "eventLog": {
+    "title": "Event Log",
+    "empty": "No events recorded yet"
+  },
+  "abg": {
+    "title": "Blood Gas Analysis",
+    "takePhoto": "Take Photo",
+    "upload": "Upload Image",
+    "manualEntry": "Enter values manually",
+    "hideManual": "Hide manual entry",
+    "processing": "Analyzing image...",
+    "alerts": "Alerts",
+    "interpretation": "Interpretation",
+    "interpret": "Interpret",
+    "save": "Save ABG",
+    "history": "ABG History",
+    "reminder": "ABG due — last recorded >10 min ago"
+  },
+  "hemo": {
+    "title": "Hemodynamics",
+    "vitals": "Vital Signs",
+    "vasopressors": "Vasopressors",
+    "notes": "Notes",
+    "notesPlaceholder": "Optional notes...",
+    "record": "Record Hemodynamics",
+    "history": "Hemodynamics History"
+  },
+  "vent": {
+    "title": "Ventilation",
+    "mode": "Ventilation Mode",
+    "evaluate": "Evaluate Rules",
+    "aiRecommend": "Get AI Recommendations",
+    "loading": "Analyzing...",
+    "recommendations": "Recommendations",
+    "notes": "Notes",
+    "notesPlaceholder": "Optional notes...",
+    "record": "Record Ventilation",
+    "history": "Ventilation History"
+  },
+  "summary": {
+    "title": "Resuscitation Summary",
+    "roscAchieved": "ROSC Achieved",
+    "terminated": "Resuscitation Terminated",
+    "duration": "Total Duration",
+    "totalShocks": "Total Shocks",
+    "totalCycles": "Total Cycles",
+    "medicationsGiven": "Medications Given",
+    "timeline": "Timeline",
+    "exportPdf": "Export PDF",
+    "print": "Print",
+    "newSession": "New Session",
+    "postRoscCare": "Post-ROSC Care",
+    "reArrest": "Re-Arrest (Back to CPR)"
+  },
+  "postRosc": {
+    "title": "Post-ROSC Checklist",
+    "ecg12lead": "12-Lead ECG",
+    "targetTemperature": "Targeted Temperature Management",
+    "hemodynamics": "Blood Pressure / Hemodynamics",
+    "labs": "Labs / Blood Gas",
+    "imaging": "Imaging (CXR, CT)",
+    "transport": "Transport / Admission Plan"
+  },
+  "confirm": {
+    "endTitle": "End Resuscitation?",
+    "endMessage": "Are you sure you want to terminate this resuscitation?",
+    "roscTitle": "Confirm ROSC",
+    "roscMessage": "Confirm return of spontaneous circulation?",
+    "yes": "Yes",
+    "no": "No",
+    "cancel": "Cancel"
+  },
+  "special": {
+    "pregnancy": "Pregnancy",
+    "pregnancyNote": "Left uterine displacement. Consider perimortem C-section at 4-5 min.",
+    "hypothermia": "Hypothermia",
+    "hypothermiaNote": "Withhold meds <30°C. Space doses 30-34°C. Continue CPR.",
+    "drowning": "Drowning",
+    "drowningNote": "A-B-C approach (airway first). 5 rescue breaths before compressions.",
+    "opioid_overdose": "Opioid Overdose",
+    "opioidNote": "Give Naloxone 0.4-2mg IV/IO/IM. Repeat every 2-3 min."
+  },
+  "common": {
+    "back": "Back",
+    "close": "Close",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading..."
+  }
+}
