@@ -13,43 +13,6 @@ const SOUND_URLS: Record<SoundName, string> = {
   alert: '/audio/alert-critical.mp3',
 };
 
-// Generate tones programmatically as fallback if audio files don't exist
-function createTone(frequency: number, duration: number, type: OscillatorType = 'sine'): Howl {
-  // Create a tiny audio context to generate the tone
-  const ctx = new AudioContext();
-  const oscillator = ctx.createOscillator();
-  const gain = ctx.createGain();
-
-  oscillator.type = type;
-  oscillator.frequency.value = frequency;
-  gain.gain.value = 0.3;
-
-  oscillator.connect(gain);
-  gain.connect(ctx.destination);
-
-  // Record it to a buffer
-  const offlineCtx = new OfflineAudioContext(1, ctx.sampleRate * (duration / 1000), ctx.sampleRate);
-  const osc = offlineCtx.createOscillator();
-  const g = offlineCtx.createGain();
-
-  osc.type = type;
-  osc.frequency.value = frequency;
-  g.gain.setValueAtTime(0.3, 0);
-  g.gain.exponentialRampToValueAtTime(0.01, duration / 1000);
-
-  osc.connect(g);
-  g.connect(offlineCtx.destination);
-  osc.start();
-  osc.stop(duration / 1000);
-
-  // We can't easily create a Howl from generated audio,
-  // so we'll use the Web Audio API directly for fallback
-  ctx.close();
-
-  // Return a dummy Howl that won't error
-  return new Howl({ src: ['data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA='], volume: 0 });
-}
-
 export function useAudio() {
   const audioEnabled = useSettingsStore((s) => s.audioEnabled);
   const volume = useSettingsStore((s) => s.audioVolume);

@@ -1,8 +1,6 @@
-import { useTranslation } from 'react-i18next';
 import { useResuscitationStore } from '../../stores/resuscitationStore';
 
 export function MedicationAlerts() {
-  const { t } = useTranslation();
   const {
     epiAlertVisible,
     amioAlertVisible,

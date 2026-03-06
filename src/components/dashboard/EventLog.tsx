@@ -28,7 +28,7 @@ const EVENT_ICONS: Record<string, string> = {
   ventilation_recorded: '🌬️',
 };
 
-export function EventLog({ events, startTime }: EventLogProps) {
+export function EventLog({ events, startTime: _startTime }: EventLogProps) {
   const { t } = useTranslation();
   const scrollRef = useRef<HTMLDivElement>(null);
 

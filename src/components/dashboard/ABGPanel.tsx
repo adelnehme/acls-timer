@@ -55,7 +55,7 @@ export function ABGPanel() {
       const merged: ABGValues = { ...EMPTY_ABG };
       for (const [key, val] of Object.entries(extracted)) {
         if (val != null && key in merged) {
-          (merged as Record<string, unknown>)[key] = val;
+          (merged as unknown as Record<string, unknown>)[key] = val;
         }
       }
       setValues(merged);
